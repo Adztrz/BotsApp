@@ -47,12 +47,14 @@ export = {
                                 fileName,
                                 stickerPath
                             );
-                            await client.deleteMessage(BotsApp.chatId, {
-                                id: downloading.key.id,
-                                remoteJid: BotsApp.chatId,
-                                fromMe: true,
-                            }).catch(err => inputSanitization.handleError(err, client, BotsApp));
-                        })
+                            //await client.deleteMessage(BotsApp.chatId, {
+                              //  id: downloading.key.id,
+                                //remoteJid: BotsApp.chatId,
+                                //fromMe: true,
+                           // }).catch(err => inputSanitization.handleError(err, client, BotsApp));
+                        }
+
+                        )
                         .on('error', async (err: any) => {
                             inputSanitization.handleError(err, client, BotsApp)
                             await client.deleteMessage(BotsApp.chatId, {

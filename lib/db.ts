@@ -296,7 +296,7 @@ const data = {
             "```Use this module to convert any image from your chat to a sticker. Reply to an image message with the command```  *.sticker*  ```to convert and send that image as a sticker.```",
         TAG_A_VALID_MEDIA_MESSAGE:
             "```Please tag a valid image/video/gif message to convert to sticker.```",
-        DOWNLOADING: "```Your sticker is downloading. Please wait...```",
+        DOWNLOADING: "```Sticker sedang diproses...```",
     },
     stoi: {
         DESCRIPTION: "Module to convert sticker to image",
